@@ -23,3 +23,7 @@ new Chart(ctx,{
     }
 }
 })
+
+document.querySelector("video").addEventListener("click",(e)=>{
+  console.log(e)
+})
